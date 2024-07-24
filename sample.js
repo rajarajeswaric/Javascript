@@ -1,4 +1,4 @@
-let person = {
+/*let person = {
     firstName: "Arun",
     age: 25,
     isStudent : true
@@ -56,7 +56,7 @@ function age()
 function adult()
 {
     console.log("Age is greater than 18")
-}
+}*/
 
 
 function isAdult(age)
