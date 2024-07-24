@@ -155,12 +155,20 @@ do{
         {
             return `hello,${name}!`;
         }
-        console.log(greet("raji"))*/
+        console.log(greet("raji"))
 
         function greet(name="guest")
         {
             return `Hello ${name}!`;
         }
         console.log(greet())
-        console.log(greet("raji"))
+        console.log(greet("raji"))*/
+
+        function sum(...numbers)
+        {
+            return numbers.reduce((total,num) => total+num,0)
+        }
+        console.log(sum(1,2,3))
+        console.log(sum(1,2,3,4,5))
+
 
