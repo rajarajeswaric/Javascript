@@ -1,4 +1,4 @@
-function exampleVar()
+function exampleConst()
 {
     const y=10;
     console.log(y)
@@ -10,5 +10,5 @@ function exampleVar()
  }
  console.log(y)
 }
-exampleVar()
+exampleConst()
     
