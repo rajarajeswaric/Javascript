@@ -11,5 +11,5 @@ function examplejava()
  }
  console.log(x)
 }
-exampleVar()
+examplejava()
     
