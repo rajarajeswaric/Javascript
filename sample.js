@@ -92,7 +92,7 @@ else if(score>=70)
 else
 {
     console.log("Grade D")
-}*/
+}
 
 let fruit = "Apple"
 
@@ -109,4 +109,9 @@ switch(fruit)
                 break;
                 default:
                     console.log("No fruit is Selected");
+}*/
+
+for(let i=0;i<5;i++)
+{
+    console.log("Hello");
 }
