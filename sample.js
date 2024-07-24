@@ -23,3 +23,12 @@ console.log(now)
 
 let sum = 30 + 10;
 console.log(sum)
+
+let diff = 30-10;
+console.log(diff)
+
+let multi = 2*4;
+console.log(multi)
+
+let power = 2^3;
+console.log(power)
