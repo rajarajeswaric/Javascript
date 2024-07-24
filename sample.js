@@ -100,8 +100,10 @@ switch(fruit)
 {
     case "Banana":
         console.log("Banana is Selected");
+        break;
         case "Apple":
             console.log("Apple is Selected");
+            break;
             case "Orange":
                 console.log("Orange is Selected");
                 break;
