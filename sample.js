@@ -140,8 +140,16 @@ do{
     for(let key in person)
     {
         console.log(key+": "+person[key])
-    }*/
+    }
 
         let age = 20;
         let access = (age>=18) ? "Major" : "minor";
-        console.log(access)
+        console.log(access)*/
+
+        for(let i=0;i<5;i++)
+        {
+            for(let j=0;j<5;j++)
+            {
+                console.log(i + " "+j)
+            }
+        }
