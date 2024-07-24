@@ -109,7 +109,7 @@ switch(fruit)
                 break;
                 default:
                     console.log("No fruit is Selected");
-}*/
+}
 
 for(let i=0;i<5;i++)
 {
@@ -129,4 +129,15 @@ let x=0;
 do{
     console.log(x);
     x++;
-}while(x>5)
+}while(x>5)*/
+
+    let person = {
+        firstName: "Arun",
+        age: 25,
+        city: "Mumbai"
+    };
+
+    for(let key in person)
+    {
+        console.log(key+": "+person[key])
+    }
