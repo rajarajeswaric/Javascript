@@ -1,15 +1,14 @@
-function exampleVar()
+function exampleLet()
 {
-    console.log(x)
-    var x = 10;
+    let x=10;
     console.log(x)
 
  if(true)
  {
-    var x = 20;
+    let x =20;
     console.log(x)
  }
  console.log(x)
 }
-exampleVar()
+exampleLet()
     
