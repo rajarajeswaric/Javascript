@@ -40,11 +40,11 @@ console.log(1!=='1')
 let a=25;
 if(a>18)
 {
-    age()
+    adult()
 }
 else
 {
-    adult()
+    age()
 }
 
 
