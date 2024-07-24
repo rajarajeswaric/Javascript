@@ -129,7 +129,7 @@ let x=0;
 do{
     console.log(x);
     x++;
-}while(x>5)*/
+}while(x>5)
 
     let person = {
         firstName: "Arun",
@@ -140,4 +140,8 @@ do{
     for(let key in person)
     {
         console.log(key+": "+person[key])
-    }
+    }*/
+
+        let age = 20;
+        let access = (age>=18) ? "Major" : "minor";
+        console.log(access)
