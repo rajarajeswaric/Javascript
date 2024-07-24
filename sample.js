@@ -55,6 +55,6 @@ function age()
 
 function adult()
 {
-    console.log("Age is greater than 20")
+    console.log("Age is greater than 18")
 }
 
