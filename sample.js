@@ -123,3 +123,10 @@ while(i<5)
     console.log(i)
     i++
 }
+
+let x=0;
+
+do{
+    console.log(x);
+    x++;
+}while(x)
