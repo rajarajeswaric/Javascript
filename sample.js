@@ -5,7 +5,7 @@ function exampleLet()
 
  if(true)
  {
-    let y=20;
+    const y=20;
     console.log(y)
  }
  console.log(y)
