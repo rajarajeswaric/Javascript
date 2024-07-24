@@ -148,5 +148,5 @@ do{
 
         
         let age = 78;
-        let access = (age>=18 && age<=50) ? "Eligible" : "Not Eligible";
+        let access = (age>=18 && age<50) ? "Eligible" : "Not Eligible";
         console.log(access);
