@@ -144,9 +144,15 @@ do{
 
         let age = 20;
         let access = (age>=18) ? "Major" : "minor";
-        console.log(access)*/
+        console.log(access)
 
         
         let age = 78;
         let access = (age>=18 && age<50) ? "Eligible" : "Not Eligible";
-        console.log(access);
+        console.log(access);*/
+
+        function greet(name)
+        {
+            return 'hello,${name}!';
+        }
+        console.log(greet("Arun"))
