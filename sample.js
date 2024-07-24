@@ -147,6 +147,6 @@ do{
         console.log(access)*/
 
         
-        let = 78;
+        let age = 78;
         let access = (age>18 && age<50) ? "greater than 18" : "less than 50";
         console.log(access);
