@@ -73,7 +73,7 @@ if(age >= 18)
 else
 {
     console.log("Minor")
-}*/
+}
 
 let score = 80;
 
@@ -92,4 +92,19 @@ else if(score>=70)
 else
 {
     console.log("Grade D")
+}*/
+
+let fruit = "Apple"
+
+switch(fruit)
+{
+    case "Banana":
+        console.log("Banana is Selected");
+        case "Apple":
+            console.log("Apple is Selected");
+            case "Orange":
+                console.log("Orange is Selected");
+                break;
+                default:
+                    console.log("No fruit is Selected");
 }
