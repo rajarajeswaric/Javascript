@@ -146,10 +146,7 @@ do{
         let access = (age>=18) ? "Major" : "minor";
         console.log(access)*/
 
-        for(let i=0;i<5;i++)
-        {
-            for(let j=0;j<5;j++)
-            {
-                console.log(i + " "+j)
-            }
-        }
+        
+
+        let access = (age>18 && age<50) ? "greater than 18" : "less than 50";
+        console.log(access);
