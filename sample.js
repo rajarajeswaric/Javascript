@@ -37,3 +37,24 @@ console.log(5==='5')
 console.log(1!='1')
 console.log(1!=='1')
 
+let a=25;
+if(a>18)
+{
+    age()
+}
+else
+{
+    adult()
+}
+
+
+function age()
+{
+    console.log("Age is lesser than 18")
+}
+
+function adult()
+{
+    console.log("Age is greater than 20")
+}
+
