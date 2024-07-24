@@ -1,4 +1,4 @@
-let person = {
+/*let person = {
     firstName: "Arun",
     age: 25,
     isStudent : true
@@ -28,7 +28,8 @@ let diff = 30-10;
 console.log(diff)
 
 let multi = 2*4;
-console.log(multi)
+console.log(multi)/*
 
-let power = 2^3;
-console.log(power)
+let x1 = 10
+console.log(--x1)
+
