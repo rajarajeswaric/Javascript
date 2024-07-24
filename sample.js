@@ -1,4 +1,4 @@
-function exampleLet()
+function exampleVar()
 {
     const y=10;
     console.log(y)
@@ -10,5 +10,5 @@ function exampleLet()
  }
  console.log(y)
 }
-exampleLet()
+exampleVar()
     
