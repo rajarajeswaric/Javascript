@@ -149,10 +149,18 @@ do{
         
         let age = 78;
         let access = (age>=18 && age<50) ? "Eligible" : "Not Eligible";
-        console.log(access);*/
+        console.log(access);
 
         function greet(name)
         {
             return `hello,${name}!`;
         }
+        console.log(greet("raji"))*/
+
+        function greet(name="guest")
+        {
+            return `Hello ${name}!`;
+        }
+        console.log(greet())
         console.log(greet("raji"))
+
