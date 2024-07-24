@@ -58,3 +58,9 @@ function adult()
     console.log("Age is greater than 18")
 }
 
+
+function isAdult(age)
+{
+    return age >= 18
+}
+console.log(isAdult(20))
