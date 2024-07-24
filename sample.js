@@ -1,14 +1,9 @@
-function exampleConst()
-{
-    const y=10;
-    console.log(y)
-
- if(true)
- {
-    const y=20;
-    console.log(y)
- }
- console.log(y)
+let person = {
+    firstName: "Arun",
+    age: 25,
+    isStudent : true
 }
-exampleConst()
-    
+console.log(person.firstName)
+
+let fruits = ["Apple","Banana","Cherry"]
+console.log(fruits[0])
