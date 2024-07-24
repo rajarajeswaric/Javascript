@@ -63,7 +63,7 @@ function isAdult(age)
 {
     return age >= 18
 }
-console.log(isAdult(20))*/
+console.log(isAdult(20))
 
 let age = 18;
 if(age >= 18)
@@ -73,4 +73,23 @@ if(age >= 18)
 else
 {
     console.log("Minor")
+}*/
+
+let score = 80;
+
+if(score>=90)
+{
+    console.log("Grade A")
+}
+else if(score>=80)
+{
+    console.log("Grade B")
+}
+else if(score>=70)
+{
+    console.log("Grade C")
+}
+else
+{
+    console.log("Grade D")
 }
