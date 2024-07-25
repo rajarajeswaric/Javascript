@@ -30,7 +30,7 @@ console.log(diff)
 let multi = 2*4;
 console.log(multi)
 
-let x1 = 10
+let x1 = 10;
 console.log(--x1)
 
 console.log(5==='5')
