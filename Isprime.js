@@ -3,19 +3,16 @@ function Isprime()
 {
    let n=15
    let count = 0;
-   let co=0;
+  
    
 
    for(let i=1;i<=n;i++)
    {
-       if(i%2==0)
+       if(n%i==0)
        {
         count++;
        }
-       else
-       {
-           co++;
-       }
+       
    }
 
    if(count>2)
