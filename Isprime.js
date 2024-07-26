@@ -14,7 +14,6 @@ function Isprime()
        }
        
    }
-
    if(count>2)
    {
       console.log("not a prime number")
