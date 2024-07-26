@@ -22,3 +22,4 @@ function Isprime()
     console.log("Prime ");
    }
 }
+Isprime()
