@@ -12,13 +12,13 @@ function Isprime()
        {
         count++;
        }
-       
    }
    if(count>2)
    {
       console.log("not a prime number")
    }
-   else{
+   else
+   {
     console.log("Prime ");
    }
 }
