@@ -3,6 +3,6 @@ let rev = "";
 
 for(let i=string.length-1;i>=0;i--)
 {
-    reverse+=string(i)
+    rev+=string(i)
 }
-console.log(reverse)
+console.log(rev)
