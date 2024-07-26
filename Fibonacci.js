@@ -1,4 +1,5 @@
 function fibo()
+{
 
   let n1=0
   let n2 = 1
@@ -11,4 +12,5 @@ function fibo()
     console.log(n2)
     n1=temp
   }
+}
 console.log(fibo())
